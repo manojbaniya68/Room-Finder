@@ -1,3 +1,4 @@
+{% load static tailwind_tags %}
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
@@ -7,14 +8,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    {% tailwind_css %}
 
     <style>
         
     </style>
 
 </head>
-<body>
-    <h1> hellow Guru?</h1>
+<body class="bg-gray-50 font-serif leading-normal tracking-normal">
+    <h1 class="bg-red-300 text-red-100"> hellow Guru?</h1>
     <h1>
         {%include 'Room1/nav.html'%}
         {%include 'Room1/body.html'%}
@@ -22,6 +24,11 @@
         {% block content %}
             
         {% endblock content %}
+        <div class="container mx-auto">
+			<section class="flex items-center justify-center h-screen">
+				<h1 class="text-5xl">Django + Tailwind = ❤️</h1>
+			</section>
+		</div>
     
 </body>
 </html>
