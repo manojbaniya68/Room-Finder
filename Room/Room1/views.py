@@ -9,4 +9,7 @@ def index(request):
 
 
 def about(request):
-    return render(request, 'Room1/nav.html')
+    return render(request, 'Room1/body.html')
+
+def nav(request):
+      return render(request, 'Room1/nav.html')    
