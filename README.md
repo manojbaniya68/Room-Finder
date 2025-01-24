@@ -1,6 +1,17 @@
-# Project Name
+# Room Finder Website for Students
 
-A brief description of your project.
+A web application tailored for students to find affordable and convenient accommodations near their schools, colleges, or universities. The platform simplifies the process of connecting students with landlords offering budget-friendly rooms.
+## Features
+
+- Student-Friendly Search and Filters
+- Property Listings
+- Interactive Map
+- Responsive Design
+## Tech Stack
+
+**Client:** Javascript,TailwindCSS
+
+**Server:** Django
 ## Team Member
 
 - Mahesh Kapadi
@@ -45,6 +56,9 @@ py .\manage.py runserver
 ## Documentation
 
 [Presentation Slide](https://linktodocumentation)
+## Feedback
+
+If you have any feedback, please reach out to us at studentroomfinder@gmail.com
 
 
 
