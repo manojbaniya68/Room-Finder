@@ -10,4 +10,4 @@ Follow these steps to set up the project on your local machine.
 Clone this repository to your local system:
 ```bash
 git clone https://github.com/your-username/your-repository.git
-cd your-repository
+cd .\Room-Finder\
