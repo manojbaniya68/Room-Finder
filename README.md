@@ -64,27 +64,6 @@ On macOs/Linux:
 cd Room-Finder/Room  
 python3 manage.py runserver 
 ```
-## Troubleshooting
-
-If you encounter issues during setup, try the solutions below:
-
-### 1. Python is Not Recognized
-Ensure Python is installed and added to your PATH.
-Verify the installation by running:
-```bash
-python --version
-```
-If Python is not installed, download it from [python.org](https://python.org)
-### 2. Error: Execution Policy Restricts Script Activation (Windows)
-If you see an error like:
-```bash
-File cannot be loaded because running scripts is disabled on this system.
-```
-Open Windows PowerShell as Administrator and run:
-```powershell
-Set-ExecutionPolicy RemoteSigned
-```
-When prompted, confirm the change by typing Y and pressing Enter.
 ## Documentation
 
 [Presentation Slide](https://linktodocumentation)
