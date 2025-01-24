@@ -14,3 +14,7 @@ cd .\Room-Finder\
 
 python -m venv venv
 .\venv\Scripts\Activate
+
+```bash
+python -m venv venv
+.\venv\Scripts\Activate
