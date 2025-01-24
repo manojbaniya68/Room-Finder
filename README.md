@@ -31,7 +31,7 @@ pip install django
 #### Start the development server:
 On Windows:
 ```bash
-py Room\manage.py runserver
+py .\Room\manage.py runserver
 ```
 ## 🚀 About Me
 I'm a full stack developer...
