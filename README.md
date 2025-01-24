@@ -5,8 +5,7 @@ A brief description of your project.
 ## Setup Instructions
 
 Follow these steps to set up the project on your local machine.
-## 🚀 About Me
-I'm a full stack developer...
+
 
 ### 1. Clone the Repository
 #### Clone this repository to your local system:
@@ -37,6 +36,8 @@ On Windows:
 ```bash
 py .\Room_ERC\manage.py runserver
 ```
+## 🚀 About Me
+I'm a full stack developer...
 
 
 
