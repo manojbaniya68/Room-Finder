@@ -9,4 +9,4 @@ def index(request):
 
 
 def about(request):
-    return render(request, 'Room1/foot.html')
+    return render(request, 'Room1/nav.html')
