@@ -74,7 +74,7 @@ Verify the installation by running:
 ```bash
 python --version
 ```
-If Python is not installed, download it from python.org.
+If Python is not installed, download it from [python.org](https://python.org)
 ### 2. Error: Execution Policy Restricts Script Activation (Windows)
 If you see an error like:
 ```bash
