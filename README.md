@@ -36,7 +36,7 @@ On Windows:
 python -m venv venv
 .\venv\Scripts\Activate
 ```
-On macOS/Linux
+On macOS/Linux:
 ```bash
 python3 -m venv venv 
 source venv/bin/activate
@@ -47,7 +47,7 @@ On Windows:
 ```bash
 pip install django
 ```
-On macOS/Linux
+On macOS/Linux:
 ```bash
 pip3 install django  
 
@@ -59,7 +59,7 @@ On Windows:
 cd .\Room-Finder\Room
 py .\manage.py runserver
 ```
-On macOs/Linux
+On macOs/Linux:
 ```bash
 cd Room-Finder/Room  
 python3 manage.py runserver 
