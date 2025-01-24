@@ -34,9 +34,12 @@ git clone https://github.com/manojbaniya68/Room-Finder.git
 On Windows:
 ```bash
 python -m venv venv
-```
-```bash
 .\venv\Scripts\Activate
+```
+On macOS/Linux
+```bash
+python3 -m venv venv 
+source venv/bin/activate
 ```
 ### 3. Install Dependencies
 #### Install Django and other dependencies:
@@ -44,14 +47,22 @@ On Windows:
 ```bash
 pip install django
 ```
+On macOS/Linux
+```bash
+pip3 install django  
+
+```
 ### 4. Run the Server
 #### Start the development server:
 On Windows:
 ```bash
 cd .\Room-Finder\Room
-```
-```bash
 py .\manage.py runserver
+```
+On macOs/Linux
+```bash
+cd Room-Finder/Room  
+python3 manage.py runserver 
 ```
 ## Documentation
 
