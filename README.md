@@ -1,6 +1,12 @@
 # Project Name
 
 A brief description of your project.
+## Team Member
+
+- Mahesh Kapadi
+- Manoj Kumar Kanu Baniya
+- Guru Prakash Gupta
+- Abishek Kumar Gupta
 
 ## Setup Instructions
 
@@ -36,8 +42,10 @@ cd .\Room-Finder\Room
 ```bash
 py .\manage.py runserver
 ```
-## 🚀 About Me
-I'm a full stack developer...
+## Documentation
+
+[Presentation Slide](https://linktodocumentation)
+
 
 
 
