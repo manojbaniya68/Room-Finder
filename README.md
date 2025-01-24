@@ -11,7 +11,7 @@ I'm a full stack developer...
 ### 1. Clone the Repository
 #### Clone this repository to your local system:
 ```bash
-git clone [https://github.com/your-username/your-repository.git](https://github.com/manojbaniya68/Room-Finder.git)
+git clone https://github.com/your-username/your-repository.git](https://github.com/manojbaniya68/Room-Finder.git
 ```
 ```bash
 cd .\Room-Finder\
