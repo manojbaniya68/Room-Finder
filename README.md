@@ -12,9 +12,6 @@ Follow these steps to set up the project on your local machine.
 ```bash
 git clone https://github.com/manojbaniya68/Room-Finder.git
 ```
-```bash
-cd 
-```
 ### 2. Create and Activate a Virtual Environment
 #### Create a virtual environment and activate it:
 On Windows:
