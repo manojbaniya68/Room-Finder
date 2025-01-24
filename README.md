@@ -46,10 +46,14 @@ source venv/bin/activate
 On Windows:
 ```bash
 pip install django
+pip install django-tailwind
+pip install 'django-tailwind[reload]'
 ```
 On macOS/Linux:
 ```bash
-pip3 install django  
+pip3 install django 
+pip3 install django-tailwind
+pip3 install 'django-tailwind[reload]' 
 
 ```
 ### 4. Run the Server
@@ -59,11 +63,22 @@ On Windows:
 cd .\Room-Finder\Room
 py .\manage.py runserver
 ```
+
 On macOs/Linux:
 ```bash
 cd Room-Finder/Room  
 python3 manage.py runserver 
 ```
+### 5. Run the Tailwind Server
+#### Run the TailwindCSS build process in a separate terminal:
+On Windows:
+```bash
+.\venv\Scripts\Activate
+cd .\Room-Finder\Room
+py manage.py tailwind install
+py manage.py tailwind start
+```
+
 ## Troubleshooting
 
 If you encounter issues during setup, try the solutions below:
