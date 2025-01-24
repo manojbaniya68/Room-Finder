@@ -9,7 +9,7 @@ A web application tailored for students to find affordable and convenient accomm
 - Responsive Design
 ## Tech Stack
 
-**Client:** Javascript,TailwindCSS
+**Client:** HTML,Javascript,TailwindCSS
 
 **Server:** Django
 ## Team Member
