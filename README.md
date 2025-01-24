@@ -27,7 +27,7 @@ On Windows:
 ```bash
 pip install django
 ```
-### 3. Run the Server
+### 4. Run the Server
 #### Start the development server:
 On Windows:
 ```bash
