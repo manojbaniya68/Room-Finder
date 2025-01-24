@@ -13,5 +13,8 @@ git clone https://github.com/your-username/your-repository.git
 cd .\Room-Finder\
 python -m venv venv
 .\venv\Scripts\Activate
+pip install django
+
+python manage.py runserver
 
 
