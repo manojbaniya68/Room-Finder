@@ -21,6 +21,9 @@ python -m venv venv
 ```bash
 .\venv\Scripts\Activate
 ```
+```bash
+cd .\Room-Finder\
+```
 ### 3. Install Dependencies
 #### Install Django and other dependencies:
 On Windows:
