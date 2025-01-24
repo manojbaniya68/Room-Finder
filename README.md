@@ -17,7 +17,7 @@ git clone [https://github.com/your-username/your-repository.git](https://github.
 cd .\Room-Finder\
 ```
 ### 2. Create and Activate a Virtual Environment
-Create a virtual environment and activate it:
+## Create a virtual environment and activate it:
 On Windows:
 ```bash
 python -m venv venv
@@ -26,13 +26,13 @@ python -m venv venv
 .\venv\Scripts\Activate
 ```
 ### 3. Install Dependencies
-Install Django and other dependencies:
+## Install Django and other dependencies:
 On Windows:
 ```bash
 pip install django
 ```
 ### 3. Run the Server
-Start the development server:
+## Start the development server:
 On Windows:
 ```bash
 py .\Room_ERC\manage.py runserver
