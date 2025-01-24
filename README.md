@@ -13,7 +13,7 @@ Follow these steps to set up the project on your local machine.
 git clone https://github.com/manojbaniya68/Room-Finder.git
 ```
 ```bash
-cd .\Room-Finder\
+cd 
 ```
 ### 2. Create and Activate a Virtual Environment
 #### Create a virtual environment and activate it:
@@ -34,7 +34,7 @@ pip install django
 #### Start the development server:
 On Windows:
 ```bash
-py .\Room\manage.py runserver
+py .\Room-Finder\Room\manage.py runserver
 ```
 ## 🚀 About Me
 I'm a full stack developer...
