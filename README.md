@@ -75,7 +75,13 @@ On Windows:
 ```bash
 .\venv\Scripts\Activate
 cd .\Room-Finder\Room
+```
+#### For first time setup only,install tailwind css
+```bash
 py manage.py tailwind install
+```
+#### Start the TailwindCSS build process:
+```bash
 py manage.py tailwind start
 ```
 
