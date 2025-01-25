@@ -12,4 +12,9 @@ def about(request):
     return render(request, 'Room1/body.html')
 
 def nav(request):
-      return render(request, 'Room1/nav.html')    
+      return render(request, 'Room1/nav.html')  
+  
+def signin(request):
+      return render(request, 'Room1/signin.html')    
+def signup(request):
+      return render(request, 'Room1/signup.html') 
