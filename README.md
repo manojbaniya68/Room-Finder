@@ -60,13 +60,13 @@ pip3 install 'django-tailwind[reload]'
 #### Start the development server:
 On Windows:
 ```bash
-cd .\Room-Finder\Room
+cd .\Room-Finder
 py .\manage.py runserver
 ```
 
 On macOs/Linux:
 ```bash
-cd Room-Finder/Room  
+cd Room-Finder  
 python3 manage.py runserver 
 ```
 ### 5. Run the Tailwind Server
@@ -74,7 +74,7 @@ python3 manage.py runserver
 On Windows:
 ```bash
 .\venv\Scripts\Activate
-cd .\Room-Finder\Room
+cd .\Room-Finder
 ```
 #### For first time setup only,install tailwind css
 ```bash
