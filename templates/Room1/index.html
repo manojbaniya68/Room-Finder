@@ -191,11 +191,16 @@
         
        {%include 'Room1/foot.html'%}
       
-       <script src="//unpkg.com/alpinejs" defer></script>
-       
-    <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
-    <script src="https://files.bpcontent.cloud/2025/01/27/09/20250127091715-SZDMVRSX.js"></script>
-        
-
+       <script type="text/javascript">
+        (function(d, m){
+            var kommunicateSettings = 
+                {"appId":"28ad0c255b14a1dbaba3951e1f2619af6","popupWidget":true,"automaticChatOpenOnNavigation":true};
+            var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+            s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+            var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+            window.kommunicate = m; m._globals = kommunicateSettings;
+        })(document, window.kommunicate || {});
+    /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+    </script>
 </body>
 </html>
